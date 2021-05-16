@@ -8,9 +8,10 @@ result1 = 'hi'
 def home():
     if request.method == 'POST':
         gre = request.form['gre']
+        gre_verbal = request.form['gre_verbal']
 
         return render_template('results.html',
-                               result=gre)
+                               result=gre, gre_verbal=gre_verbal)
     else:   
         return render_template('home.html')
 
