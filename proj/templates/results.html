@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>Results</title>
   </head>
   <body>
@@ -9,8 +9,14 @@
     {% block content %}
 
     <h1> Results </h1>
-    <p>i am passing this in: {{gre_verbal}}</p>
-
+    <p>GRE Verbal: {{gre_verbal}}</p>
+    <p>GRE Quantitative: {{gre_quantitative}}</p>
+    <p>GRE Writing: {{gre_writing}}</p>
+    <p>GPA: {{gpa}}</p>
+    <p>Cost: {{cost}}</p>
+    <p>Type: {{pub_or_priv}}</p>
+    <p>Size: {{size}}</p>
+    <p>Location: {{location}}</p>
 
     {% endblock %}
   </body>
