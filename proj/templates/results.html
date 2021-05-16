@@ -10,6 +10,15 @@
 
     <h1> Results </h1>
     <p>i am passing this in: {{gre_verbal}}</p>
+    <p>results: {{results}}</p>
+
+    <!-- <p>results: {{results}}</p> -->
+    <p> results: 
+    {% for thing in results %}
+  <li>{{ thing }}</li>
+{% endfor %}  
+</p>
+
 
 
     {% endblock %}
