@@ -1,4 +1,4 @@
-from flask import Flask, render_template, make_response
+from flask import Flask, render_template, make_response, request
 import os
 import time
 
@@ -15,7 +15,7 @@ def format_server_time():
 #     return render_template('index.html', context=context)
 
 
-@app.route('/')
+@app.route('/', methods =["GET", "POST"])
 def index():
     context = {'server_time': format_server_time()}
     # 1
@@ -24,7 +24,19 @@ def index():
     response = make_response(template)
     # 3
     response.headers['Cache-Control'] = 'public, max-age=300, s-maxage=600'
-    return response
+    # get input values
+    if request.method == "POST":
+    # getting input with name = fname in HTML form
+        gre_verbal = request.form.get("gre_verbal")
+
+    return render_template("index.html", gre_verbal=gre_verbal)
+    
+    # return response
+
+# @app.route("/results", methods=['POST'])
+# def results():
+#     result = 'nothing submitted'
+#     return render_template("results.html", result = result)
 
 
 if __name__ == '__main__':

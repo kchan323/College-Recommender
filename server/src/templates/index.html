@@ -31,7 +31,9 @@
     <!-- Setup a simple Flask server -->
     <h3>{{ context.server_time }}</h3>
 
-    <form action="/action_page.php">
+    <h3>{{ gre_verbal }}</h3>
+
+    <form action="/action_page.php" method="post">
       <!-- GRE Verbal -->
       <label for="gre_verbal">GRE Verbal:</label>
       <input type="text" id="gre_verbal" name="gre_verbal"><br><br>
