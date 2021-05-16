@@ -46,7 +46,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV='/Users/katelinchan/OneDrive - Cornell University/Third Year/Spring 2021/CS 4701/College-Recommender/venv'
+VIRTUAL_ENV='/Users/katelinchan/OneDrive - Cornell University/Third Year/Spring 2021/CS 4701/College-Recommender/proj/venv'
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

@@ -17,7 +17,26 @@
     <p>Type: {{pub_or_priv}}</p>
     <p>Size: {{size}}</p>
     <p>Location: {{location}}</p>
+    <p>Most Important: {{most_important}}</p>
+    <p>Very Important: {{very_important}}</p>
+    <p>Less Important: {{less_important}}</p>
+    <p>Least Important: {{least_important}}</p>
+    <p>Results: {{results}}</p>
+    <p>Information: {{top_school_info}}</p>
 
+    <ul class="school">
+      {% for school in top_school_info %}
+      <li>
+        <!--  New ul with class of 'courses' -->
+        <ul class='info'>
+          {% for item in school %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </li>
+      {% endfor %}
+    </ul>
+    
     {% endblock %}
   </body>
 </html>

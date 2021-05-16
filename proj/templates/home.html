@@ -27,74 +27,74 @@
 
       <!-- Cost -->
       <p>What is your projected total annual cost?</p>
-      <input type="radio" id="0" name="cost" value="0">
+      <input type="radio" id="0" name="cost" value="1">
       <label for="0">$5,000 - $15,000</label><br>
-      <input type="radio" id="1" name="cost" value="1">
+      <input type="radio" id="1" name="cost" value="2">
       <label for="1">$15,001 - $30,000</label><br>
-      <input type="radio" id="2" name="cost" value="2">
+      <input type="radio" id="2" name="cost" value="3">
       <label for="2">$30,001 - $45,000</label><br>
-      <input type="radio" id="3" name="cost" value="3">
+      <input type="radio" id="3" name="cost" value="4">
       <label for="3">$45,001 - $60,000</label><br>
-      <input type="radio" id="4" name="cost" value="4">
+      <input type="radio" id="4" name="cost" value="5">
       <label for="4">$60,001 - $75,000</label><br>
 
       <!-- Public or Private -->
       <p>What type of school would you prefer?</p>
-      <input type="radio" id="public" name="pub_or_priv" value="0">
+      <input type="radio" id="public" name="pub_or_priv" value="1">
       <label for="public">Public</label><br>
-      <input type="radio" id="private" name="pub_or_priv" value="1">
+      <input type="radio" id="private" name="pub_or_priv" value="2">
       <label for="private">Private</label><br>
 
       <!-- Size -->
       <p>What size school would you prefer?</p>
-      <input type="radio" id="small" name="size" value="0">
+      <input type="radio" id="small" name="size" value="1">
       <label for="small">Small</label><br>
-      <input type="radio" id="medium" name="size" value="1">
+      <input type="radio" id="medium" name="size" value="2">
       <label for="medium">Medium</label><br>
-      <input type="radio" id="large" name="size" value="2">
+      <input type="radio" id="large" name="size" value="3">
       <label for="large">Large</label><br>
 
       <!-- Location -->
       <p>Do you want to go anywhere specific in the US?</p>
-      <input type="radio" id="northeast" name="location" value="0">
+      <input type="radio" id="northeast" name="location" value="1">
       <label for="northeast">Northeast (PA, NY, NJ, ME, NH, VT, MA, CT, and RI)</label><br>
-      <input type="radio" id="midwest" name="location" value="1">
+      <input type="radio" id="midwest" name="location" value="2">
       <label for="midwest">Midwest (ND, SD, NE, KS, MN, IA, MO, WI, IL, IN, MI, OH)</label><br>
-      <input type="radio" id="south" name="location" value="2">
+      <input type="radio" id="south" name="location" value="3">
       <label for="south">South (OK, TX, AR, LA, KY, TN, MS, AL, WV, MD, VA, DC, NC, SC, DA, AL, FL, DE)</label><br>
-      <input type="radio" id="west" name="location" value="3">
+      <input type="radio" id="west" name="location" value="4">
       <label for="west">West (WA, OR, CA, NV, ID, MT, WY, UT, AZ, NM, CO)</label><br>
 
       <!-- Ranking -->
       <h4>Rank your preferences from most to least important.</h4>
       <label for="1">1) Most Important:</label>
-      <select id="1">
+      <select id="1" name="most_important">
         <option value="cost">Cost</option>
-        <option value="type">Public or Private</option>
+        <option value="pub_or_priv">Public or Private</option>
         <option value="size">Size</option>
         <option value="location">Location</option>
       </select>
       <br><br>
       <label for="2">2) Very Important:</label>
-      <select id="2">
+      <select id="2" name="very_important">
         <option value="cost">Cost</option>
-        <option value="type">Public or Private</option>
+        <option value="pub_or_priv">Public or Private</option>
         <option value="size">Size</option>
         <option value="location">Location</option>
       </select>
       <br><br>
       <label for="3">3) Less Important:</label>
-      <select id="3">
+      <select id="3" name="less_important">
         <option value="cost">Cost</option>
-        <option value="type">Public or Private</option>
+        <option value="pub_or_priv">Public or Private</option>
         <option value="size">Size</option>
         <option value="location">Location</option>
       </select>
       <br><br>
       <label for="4">4) Least Important:</label>
-      <select id="4">
+      <select id="4" name="least_important">
         <option value="cost">Cost</option>
-        <option value="type">Public or Private</option>
+        <option value="pub_or_priv">Public or Private</option>
         <option value="size">Size</option>
         <option value="location">Location</option>
       </select>

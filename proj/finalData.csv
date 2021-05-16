@@ -1,0 +1,79 @@
+,Index,Rank,Name,City,State,PubOrPriv,UndergradPop,StudentPop,NetPrice,AverageGrantAid,TotalAnnualCost,AlumniSalary,AcceptanceRate,SATLower,SATUpper,ACTLower,ACTUpper,Website,Size,SizeNum,Location,LocationNum,pubOrPrivNum,Cost
+0,0,1.0,Harvard University,Cambridge,MA,Private,13844.0,31120.0,14327.0,49870.0,69600.0,146800.0,5.0,1460.0,1590.0,32.0,35.0,www.harvard.edu,Large,2.0,Northeast,0.0,1.0,4.0
+1,1,2.0,Stanford University,Stanford,CA,Private,8402.0,17534.0,13261.0,50134.0,69109.0,145200.0,5.0,1390.0,1540.0,32.0,35.0,www.stanford.edu,Large,2.0,West,3.0,1.0,4.0
+2,2,3.0,Yale University,New Haven,CT,Private,6483.0,12974.0,18627.0,50897.0,71290.0,138300.0,7.0,1460.0,1580.0,32.0,35.0,www.yale.edu,Medium,1.0,Northeast,0.0,1.0,4.0
+4,4,5.0,Princeton University,Princeton,NJ,Private,5659.0,8273.0,9327.0,48088.0,66150.0,139400.0,6.0,1430.0,1570.0,31.0,35.0,www.princeton.edu,Medium,1.0,Northeast,0.0,1.0,4.0
+5,5,6.0,University Of Pennsylvania,Philadelphia,PA,Private,13437.0,25367.0,24242.0,44801.0,71715.0,133900.0,9.0,1420.0,1560.0,32.0,35.0,www.upenn.edu,Large,2.0,Northeast,0.0,1.0,4.0
+6,6,7.0,Brown University,Providence,RI,Private,7390.0,10095.0,30205.0,42455.0,71050.0,127600.0,8.0,1405.0,1570.0,31.0,35.0,www.brown.edu,Medium,1.0,Northeast,0.0,1.0,4.0
+8,8,9.0,Duke University,Durham,NC,Private,7184.0,16130.0,35737.0,47836.0,71764.0,132100.0,10.0,1380.0,1540.0,31.0,35.0,www.duke.edu,Large,2.0,South,2.0,1.0,4.0
+10,10,11.0,Cornell University,Ithaca,NY,Private,14774.0,23016.0,31230.0,36164.0,70321.0,128200.0,13.0,1390.0,1550.0,31.0,34.0,www.cornell.edu,Large,2.0,Northeast,0.0,1.0,4.0
+12,12,13.0,"University Of California, Berkeley",Berkeley,CA,Public,31133.0,41891.0,15859.0,18319.0,65003.0,131800.0,17.0,1260.0,1480.0,30.0,34.0,www.berkeley.edu,Large,2.0,West,3.0,0.0,4.0
+13,13,14.0,Columbia University,New York,NY,Private,8523.0,30454.0,24231.0,49185.0,74199.0,126800.0,7.0,1410.0,1570.0,31.0,34.0,www.columbia.edu,Large,2.0,Northeast,0.0,1.0,4.0
+14,14,15.0,Georgetown University,Washington,DC,Private,8194.0,19005.0,30107.0,41893.0,71580.0,122200.0,16.0,1350.0,1520.0,30.0,34.0,www.georgetown.edu,Large,2.0,South,2.0,1.0,4.0
+15,15,16.0,University Of Chicago,Chicago,IL,Private,6915.0,16227.0,25455.0,37883.0,75735.0,114200.0,9.0,1480.0,1580.0,32.0,35.0,www.uchicago.edu,Large,2.0,Midwest,1.0,1.0,4.0
+16,16,17.0,Northwestern University,Evanston,IL,Private,10163.0,22008.0,24047.0,44247.0,72980.0,115400.0,9.0,1420.0,1560.0,32.0,34.0,www.northwestern.edu,Large,2.0,Midwest,1.0,1.0,4.0
+17,17,18.0,University Of Notre Dame,Notre Dame,IN,Private,8664.0,12467.0,28768.0,39590.0,69395.0,130500.0,19.0,1370.0,1520.0,32.0,34.0,www.nd.edu,Medium,1.0,Midwest,1.0,1.0,4.0
+19,19,20.0,"University Of Michigan, Ann Arbor",Ann Arbor,MI,Public,29773.0,46002.0,14860.0,18751.0,62176.0,112200.0,27.0,1330.0,1500.0,30.0,33.0,www.umich.edu,Large,2.0,Midwest,1.0,0.0,4.0
+20,20,21.0,Rice University,Houston,TX,Private,4036.0,7022.0,20237.0,36387.0,63158.0,129500.0,16.0,1490.0,1580.0,33.0,35.0,www.rice.edu,Medium,1.0,South,2.0,1.0,4.0
+21,21,22.0,Johns Hopkins University,Baltimore,MD,Private,7825.0,25151.0,33586.0,38542.0,69863.0,117100.0,13.0,1450.0,1570.0,33.0,35.0,www.jhu.edu,Large,2.0,South,2.0,1.0,4.0
+24,24,27.0,Vanderbilt University,Nashville,TN,Private,7006.0,12592.0,19959.0,41359.0,67392.0,119100.0,11.0,1440.0,1570.0,32.0,35.0,www.vanderbilt.edu,Medium,1.0,South,2.0,1.0,4.0
+27,27,30.0,University Of Southern California,Los Angeles,CA,Private,20582.0,45687.0,30232.0,36686.0,72209.0,120600.0,16.0,1300.0,1500.0,30.0,34.0,www.usc.edu,Large,2.0,West,3.0,1.0,4.0
+28,28,31.0,Washington University In St. Louis,St. Louis,MO,Private,8533.0,15303.0,28540.0,41977.0,71975.0,114900.0,16.0,1470.0,1570.0,32.0,34.0,www.wustl.edu,Large,2.0,Midwest,1.0,1.0,4.0
+29,29,33.0,University Of Virginia,Charlottesville,VA,Public,18432.0,24360.0,20547.0,21171.0,62633.0,117500.0,27.0,1310.0,1500.0,29.0,33.0,www.virginia.edu,Large,2.0,South,2.0,0.0,4.0
+30,30,34.0,Tufts University,Medford,MA,Private,5960.0,11449.0,32620.0,38605.0,70600.0,118100.0,15.0,1410.0,1540.0,31.0,34.0,www.tufts.edu,Medium,1.0,Northeast,0.0,1.0,4.0
+31,31,35.0,New York University,New York,NY,Private,30252.0,51123.0,40336.0,31542.0,71790.0,117700.0,28.0,1290.0,1490.0,29.0,33.0,www.nyu.edu,Large,2.0,Northeast,0.0,1.0,4.0
+33,33,37.0,Carnegie Mellon University,Pittsburgh,PA,Private,6941.0,13869.0,31102.0,38163.0,70094.0,136100.0,22.0,1430.0,1560.0,32.0,35.0,www.cmu.edu,Medium,1.0,Northeast,0.0,1.0,4.0
+34,34,38.0,"University Of California, Los Angeles",Los Angeles,CA,Public,33148.0,44027.0,14309.0,20011.0,61915.0,116100.0,16.0,1220.0,1450.0,29.0,34.0,ucla.edu,Large,2.0,West,3.0,0.0,4.0
+38,38,45.0,"University Of North Carolina, Chapel Hill",Chapel Hill,NC,Public,19429.0,29911.0,14163.0,17291.0,51152.0,100800.0,24.0,1270.0,1460.0,28.0,33.0,www.unc.edu,Large,2.0,South,2.0,0.0,3.0
+46,46,55.0,Emory University,Atlanta,GA,Private,7859.0,14263.0,26760.0,38213.0,66950.0,110800.0,22.0,1350.0,1520.0,30.0,33.0,www.emory.edu,Medium,1.0,South,2.0,1.0,4.0
+53,53,63.0,"University Of Maryland, College Park",College Park,MD,Public,32022.0,40521.0,18517.0,8955.0,49698.0,113400.0,45.0,1280.0,1470.0,29.0,33.0,www.umd.edu,Large,2.0,South,2.0,0.0,3.0
+54,54,64.0,"University Of Washington, Seattle",Seattle,WA,Public,38781.0,46166.0,12899.0,14051.0,51159.0,112300.0,46.0,1190.0,1420.0,27.0,32.0,uw.edu,Large,2.0,West,3.0,0.0,3.0
+58,58,68.0,"University Of Illinois, Urbana-Champaign",Champaign,IL,Public,35476.0,48216.0,18377.0,13595.0,46202.0,115300.0,62.0,1340.0,1500.0,26.0,32.0,illinois.edu,Large,2.0,Midwest,1.0,0.0,3.0
+59,59,69.0,"University Of Wisconsin, Madison",Madison,WI,Public,33863.0,42977.0,19880.0,6733.0,49885.0,104400.0,54.0,1280.0,1450.0,27.0,31.0,www.wisc.edu,Large,2.0,Midwest,1.0,0.0,3.0
+60,60,70.0,University Of Florida,Gainesville,FL,Public,37851.0,52669.0,12345.0,6636.0,43409.0,102800.0,42.0,1240.0,1400.0,28.0,32.0,www.ufl.edu,Large,2.0,South,2.0,0.0,2.0
+64,64,74.0,Boston University,Boston,MA,Private,22829.0,33355.0,37065.0,34156.0,70302.0,113600.0,25.0,1300.0,1480.0,29.0,32.0,www.bu.edu,Large,2.0,Northeast,0.0,1.0,4.0
+66,66,76.0,"University Of Texas, Austin",Austin,TX,Public,42827.0,51525.0,16960.0,10644.0,51786.0,112800.0,36.0,1220.0,1460.0,26.0,33.0,www.utexas.edu,Large,2.0,South,2.0,0.0,3.0
+67,67,78.0,George Washington University,Washington,DC,Private,12358.0,27973.0,31956.0,29429.0,69368.0,115300.0,41.0,1280.0,1440.0,29.0,32.0,www.gwu.edu,Large,2.0,South,2.0,1.0,4.0
+68,68,79.0,"University Of California, San Diego",San Diego,CA,Public,29613.0,35772.0,14630.0,18231.0,60177.0,123700.0,34.0,1210.0,1410.0,27.0,33.0,www.ucsd.edu,Large,2.0,West,3.0,0.0,4.0
+70,70,82.0,University Of Rochester,Rochester,NY,Private,6905.0,11648.0,30480.0,30658.0,70108.0,112700.0,34.0,1300.0,1490.0,29.0,33.0,www.rochester.edu,Medium,1.0,Northeast,0.0,1.0,4.0
+75,75,87.0,"University Of California, Irvine",Irvine,CA,Public,28947.0,35242.0,13376.0,18824.0,61872.0,116000.0,37.0,1170.0,1350.0,25.0,32.0,www.uci.edu,Large,2.0,West,3.0,0.0,4.0
+76,76,88.0,"University Of California, Davis",Davis,CA,Public,31437.0,37380.0,15737.0,18690.0,63743.0,112600.0,43.0,1130.0,1360.0,25.0,32.0,www.ucdavis.edu,Large,2.0,West,3.0,0.0,4.0
+84,84,98.0,"University Of Minnesota, Twin Cities",Minneapolis,MN,Public,45796.0,51848.0,17396.0,8760.0,39655.0,104000.0,50.0,1270.0,1480.0,26.0,31.0,www.umn.edu,Large,2.0,Midwest,1.0,0.0,2.0
+85,85,99.0,University Of Georgia,Athens,GA,Public,30690.0,37606.0,14625.0,10076.0,44978.0,100700.0,54.0,1200.0,1370.0,26.0,31.0,www.uga.edu,Large,2.0,South,2.0,0.0,2.0
+89,89,103.0,Texas A&M University,College Station,TX,Public,53515.0,67929.0,20282.0,8748.0,53848.0,115700.0,71.0,1140.0,1360.0,25.0,30.0,www.tamu.edu,Large,2.0,South,2.0,0.0,3.0
+93,93,108.0,Virginia Tech,Blacksburg,VA,Public,26634.0,34440.0,20343.0,8261.0,44024.0,114000.0,70.0,1180.0,1360.0,25.0,30.0,vt.edu,Large,2.0,South,2.0,0.0,2.0
+101,101,117.0,Pennsylvania State University,State College,PA,Public,43709.0,47119.0,30373.0,10060.0,51572.0,105500.0,50.0,1160.0,1340.0,25.0,30.0,www.psu.edu,Large,2.0,Northeast,0.0,0.0,3.0
+102,102,118.0,Purdue University,West Lafayette,IN,Public,32534.0,42699.0,13746.0,10703.0,41614.0,110000.0,57.0,1150.0,1380.0,25.0,31.0,www.purdue.edu,Large,2.0,Midwest,1.0,0.0,2.0
+103,103,121.0,Ohio State University,Columbus,OH,Public,49185.0,59837.0,17726.0,9730.0,46141.0,98600.0,48.0,1260.0,1450.0,27.0,31.0,www.osu.edu,Large,2.0,Midwest,1.0,0.0,3.0
+107,107,126.0,American University,Washington,DC,Private,8606.0,13858.0,36567.0,29412.0,64234.0,102900.0,29.0,1180.0,1350.0,26.0,30.0,www.american.edu,Medium,1.0,South,2.0,1.0,4.0
+110,110,130.0,University Of Connecticut,Storrs,CT,Public,20662.0,27578.0,20681.0,13630.0,53112.0,105200.0,48.0,1210.0,1390.0,26.0,31.0,uconn.edu,Large,2.0,Northeast,0.0,0.0,3.0
+111,111,131.0,"Indiana University, Bloomington",Bloomington,IN,Public,41317.0,43710.0,14351.0,11647.0,48739.0,97100.0,76.0,1140.0,1350.0,25.0,31.0,www.indiana.edu,Large,2.0,Midwest,1.0,0.0,3.0
+114,114,134.0,Clemson University,Clemson,SC,Public,19506.0,24387.0,17696.0,10296.0,50516.0,106700.0,47.0,1220.0,1390.0,27.0,31.0,www.clemson.edu,Large,2.0,South,2.0,0.0,3.0
+117,117,139.0,"North Carolina State University, Raleigh",Raleigh,NC,Public,26961.0,34432.0,15024.0,10998.0,42048.0,106500.0,51.0,1230.0,1390.0,26.0,31.0,www.ncsu.edu,Large,2.0,South,2.0,0.0,2.0
+122,122,144.0,University Of Pittsburgh,Pittsburgh,PA,Public,20822.0,28642.0,28331.0,12484.0,44812.0,100400.0,60.0,1240.0,1418.0,27.0,32.0,www.pitt.edu,Large,2.0,Northeast,0.0,0.0,2.0
+124,124,146.0,"University Of Colorado, Boulder",Boulder,CO,Public,30976.0,35338.0,20706.0,9787.0,54312.0,109900.0,80.0,1150.0,1340.0,25.0,30.0,www.colorado.edu,Large,2.0,West,3.0,0.0,3.0
+125,125,147.0,University Of Delaware,Newark,DE,Public,20550.0,23774.0,16892.0,8798.0,47782.0,105400.0,63.0,1130.0,1330.0,25.0,29.0,www.udel.edu,Large,2.0,South,2.0,0.0,3.0
+128,128,151.0,Florida State University,Tallahassee,FL,Public,36787.0,41362.0,14582.0,6628.0,34904.0,92700.0,49.0,1190.0,1330.0,26.0,30.0,www.fsu.edu,Large,2.0,South,2.0,0.0,2.0
+132,132,156.0,Syracuse University,Syracuse,NY,Private,22484.0,28199.0,34173.0,27878.0,65480.0,104800.0,47.0,1160.0,1350.0,25.0,30.0,syracuse.edu,Large,2.0,Northeast,0.0,1.0,4.0
+135,135,159.0,Michigan State University,East Lansing,MI,Public,42252.0,50019.0,18576.0,10911.0,53424.0,100800.0,72.0,1100.0,1320.0,23.0,28.0,www.msu.edu,Large,2.0,Midwest,1.0,0.0,3.0
+136,136,160.0,University Of Iowa,Iowa City,IA,Public,27051.0,32166.0,15103.0,8045.0,44251.0,99400.0,86.0,1140.0,1370.0,23.0,28.0,www.uiowa.edu,Large,2.0,Midwest,1.0,0.0,2.0
+148,148,176.0,"Suny, Stony Brook (Stony Brook University)",Stony Brook,NY,Public,19871.0,25989.0,13770.0,9968.0,42981.0,107800.0,42.0,1210.0,1410.0,26.0,31.0,www.stonybrook.edu,Large,2.0,Northeast,0.0,0.0,2.0
+149,149,177.0,George Mason University,Fairfax,VA,Public,32249.0,35984.0,19779.0,8567.0,51672.0,105700.0,81.0,1100.0,1290.0,24.0,30.0,www.gmu.edu,Large,2.0,South,2.0,0.0,3.0
+154,154,182.0,Northeastern University,Boston,MA,Private,18760.0,21489.0,29748.0,34691.0,68177.0,109700.0,27.0,1370.0,1520.0,32.0,34.0,www.northeastern.edu,Large,2.0,Northeast,0.0,1.0,4.0
+158,158,186.0,"Arizona State University, Tempe",Tempe,AZ,Public,46038.0,51164.0,11163.0,12081.0,44110.0,100900.0,84.0,1120.0,1350.0,22.0,29.0,www.asu.edu,Large,2.0,West,3.0,0.0,2.0
+159,159,187.0,University Of Utah,Salt Lake City,UT,Public,28686.0,32800.0,13728.0,7990.0,42916.0,102600.0,66.0,1110.0,1350.0,22.0,29.0,www.utah.edu,Large,2.0,West,3.0,0.0,2.0
+162,162,191.0,University Of Oregon,Eugene,OR,Public,22400.0,22887.0,15693.0,8662.0,49542.0,95800.0,83.0,1080.0,1270.0,22.0,28.0,www.uoregon.edu,Large,2.0,West,3.0,0.0,3.0
+166,166,196.0,University At Buffalo (Suny),Buffalo,NY,Public,23075.0,30648.0,17469.0,8198.0,43398.0,98000.0,57.0,1080.0,1260.0,24.0,28.0,www.buffalo.edu,Large,2.0,Northeast,0.0,0.0,2.0
+171,171,201.0,University Of South Carolina,Columbia,SC,Public,26791.0,34731.0,19519.0,5792.0,47162.0,89900.0,72.0,1170.0,1330.0,25.0,30.0,www.sc.edu,Large,2.0,South,2.0,0.0,3.0
+179,179,211.0,Iowa State University,Ames,IA,Public,32814.0,36158.0,14331.0,7882.0,34442.0,101300.0,89.0,1160.0,1410.0,22.0,28.0,www.iastate.edu,Large,2.0,Midwest,1.0,0.0,2.0
+188,188,223.0,"Colorado State University, Fort Collins",Fort Collins,CO,Public,28404.0,33083.0,17058.0,8221.0,43437.0,96100.0,83.0,1100.0,1300.0,22.0,28.0,www.colostate.edu,Large,2.0,West,3.0,0.0,2.0
+192,192,228.0,University Of South Florida,Tampa,FL,Public,37076.0,43540.0,11700.0,7937.0,32324.0,91300.0,45.0,1150.0,1310.0,24.0,29.0,www.usf.edu,Large,2.0,South,2.0,0.0,2.0
+202,202,240.0,"University Of Texas, Dallas",Richardson,TX,Public,18764.0,27642.0,14763.0,14321.0,45488.0,100900.0,76.0,1220.0,1430.0,26.0,32.0,www.utdallas.edu,Large,2.0,South,2.0,0.0,3.0
+203,203,242.0,University Of Central Florida,Orlando,FL,Public,65100.0,66059.0,15286.0,5757.0,38353.0,88600.0,50.0,1150.0,1320.0,24.0,29.0,www.ucf.edu,Large,2.0,South,2.0,0.0,2.0
+218,218,261.0,Oregon State University,Corvallis,OR,Public,29777.0,30896.0,20493.0,8263.0,44706.0,104800.0,79.0,1070.0,1300.0,22.0,28.0,oregonstate.edu,Large,2.0,West,3.0,0.0,2.0
+252,252,306.0,University Of Houston,Houston,TX,Public,40813.0,45364.0,16392.0,9530.0,37306.0,103900.0,61.0,1110.0,1280.0,23.0,27.0,www.uh.edu,Large,2.0,South,2.0,0.0,2.0
+253,253,308.0,University Of Kentucky,Lexington,KY,Public,23718.0,29465.0,18527.0,9387.0,45634.0,96400.0,96.0,1080.0,1330.0,22.0,28.0,www.uky.edu,Large,2.0,South,2.0,0.0,3.0
+257,257,313.0,University Of Cincinnati,Cincinnati,OH,Public,28857.0,37155.0,22828.0,7045.0,44490.0,97300.0,76.0,1120.0,1340.0,23.0,28.0,www.uc.edu,Large,2.0,Midwest,1.0,0.0,2.0
+418,418,513.0,Georgia State University,Atlanta,GA,Public,29773.0,32816.0,15506.0,10090.0,40873.0,90800.0,70.0,1040.0,1220.0,19.0,26.0,www.gsu.edu,Large,2.0,South,2.0,0.0,2.0
+440,440,544.0,University Of Colorado Colorado Springs,Colorado Springs,CO,Public,12932.0,14122.0,15872.0,5682.0,36298.0,90900.0,93.0,1040.0,1250.0,21.0,26.0,www.uccs.edu,Medium,1.0,West,3.0,0.0,2.0
+486,486,601.0,Wayne State University,Detroit,MI,Public,20314.0,27064.0,12970.0,9682.0,40763.0,91700.0,67.0,1000.0,1210.0,21.0,28.0,wayne.edu,Large,2.0,Midwest,1.0,0.0,2.0
