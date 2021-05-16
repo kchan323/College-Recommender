@@ -23,6 +23,13 @@ def home():
     logger.info("Here's some info")
     if request.method == 'POST':
         gre_verbal = request.form['gre_verbal']
+        gre_quantitative = request.form['gre_quantitative']
+        gre_writing = request.form['gre_writing']
+        gpa = request.form['gpa']
+        cost = request.form['cost']
+        pub_or_priv = request.form['pub_or_priv']
+        size = request.form['size']
+        location = request.form['location']
 
         schoolArray = get_sim_score(0, 0, 0, 0)
 
@@ -31,9 +38,9 @@ def home():
 
         print('This is standard output', file=sys.stdout)
 
-
-        return render_template('results.html',
-                               results=schoolArray, gre_verbal=gre_verbal)
+        return render_template('results.html', gre_verbal=gre_verbal, 
+        gre_quantitative=gre_quantitative, gre_writing=gre_writing, gpa=gpa, 
+        cost=cost, pub_or_priv=pub_or_priv, size=size, location=location, results=schoolArray)
     else:   
         return render_template('home.html')
     
@@ -80,7 +87,7 @@ def get_sim_score(input_cost, input_puborpriv, input_size, input_location):
 
 def results():
     result = 'nothing submitted'
-    return render_template("results.html", result = result)
+    return render_template("results.html", result=result)
 
 if __name__ == "__main__":
     app.run(debug=True)

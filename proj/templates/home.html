@@ -1,15 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>Flask Tutorial</title>
+    <meta charset="UTF-8">
+    <title>College Recommender</title>
   </head>
   <body>
     {% extends "template.html" %}
     {% block content %}
-
-    <h1> My First Try Using Flask </h1>
-    <p> Flask is Fun </p>
 
     <form method="POST">
       <!-- GRE Verbal -->
@@ -32,7 +29,7 @@
       <p>What is your projected total annual cost?</p>
       <input type="radio" id="0" name="cost" value="0">
       <label for="0">$5,000 - $15,000</label><br>
-      <input type="radio" id="1" name="costt" value="1">
+      <input type="radio" id="1" name="cost" value="1">
       <label for="1">$15,001 - $30,000</label><br>
       <input type="radio" id="2" name="cost" value="2">
       <label for="2">$30,001 - $45,000</label><br>
@@ -43,29 +40,29 @@
 
       <!-- Public or Private -->
       <p>What type of school would you prefer?</p>
-      <input type="radio" id="public" name="type" value="public">
+      <input type="radio" id="public" name="pub_or_priv" value="0">
       <label for="public">Public</label><br>
-      <input type="radio" id="private" name="type" value="private">
+      <input type="radio" id="private" name="pub_or_priv" value="1">
       <label for="private">Private</label><br>
 
       <!-- Size -->
       <p>What size school would you prefer?</p>
-      <input type="radio" id="small" name="size" value="small">
+      <input type="radio" id="small" name="size" value="0">
       <label for="small">Small</label><br>
-      <input type="radio" id="medium" name="size" value="medium">
+      <input type="radio" id="medium" name="size" value="1">
       <label for="medium">Medium</label><br>
-      <input type="radio" id="large" name="size" value="large">
+      <input type="radio" id="large" name="size" value="2">
       <label for="large">Large</label><br>
 
       <!-- Location -->
       <p>Do you want to go anywhere specific in the US?</p>
-      <input type="radio" id="northeast" name="location" value="northeast">
+      <input type="radio" id="northeast" name="location" value="0">
       <label for="northeast">Northeast (PA, NY, NJ, ME, NH, VT, MA, CT, and RI)</label><br>
-      <input type="radio" id="midwest" name="location" value="midwest">
+      <input type="radio" id="midwest" name="location" value="1">
       <label for="midwest">Midwest (ND, SD, NE, KS, MN, IA, MO, WI, IL, IN, MI, OH)</label><br>
-      <input type="radio" id="south" name="location" value="south">
+      <input type="radio" id="south" name="location" value="2">
       <label for="south">South (OK, TX, AR, LA, KY, TN, MS, AL, WV, MD, VA, DC, NC, SC, DA, AL, FL, DE)</label><br>
-      <input type="radio" id="west" name="location" value="west">
+      <input type="radio" id="west" name="location" value="3">
       <label for="west">West (WA, OR, CA, NV, ID, MT, WY, UT, AZ, NM, CO)</label><br>
 
       <!-- Ranking -->
@@ -104,8 +101,6 @@
       <input type="submit" name="button" value="submit">
     </form>
     
-    
     {% endblock %}
-
   </body>
 </html>
