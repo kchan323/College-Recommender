@@ -2,41 +2,103 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Results</title>
   </head>
+  <style>
+    #inputted {
+      font-size: 12px;
+      margin-top: -3px;
+    }
+
+    #inputtedTitle{
+      font-size: 16px;
+      color: #036bfc;
+    }
+
+    /* h1{
+      font-size: 18px;
+    } */
+
+    #schoolName{
+      color: #24508f;
+      font-size: 18px;
+    }
+
+    #parentDiv{
+      display: flex;
+    }
+
+    #detail{
+      /* font-weight: bold; */
+      display: flex;
+    }
+
+    p{
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    #prefs{
+      font-size: 16px;
+      font-weight: bold;
+      color: #449ef2;
+    }
+
+    #scores{
+      font-size: 16px;
+      font-weight: bold;
+      color: #0026ff;
+    }
+
+    #scoreContainer{
+      margin-left: 50px;
+    }
+
+    #prefContainer{
+      margin-left: 20px;
+    }
+
+
+    </style>
   <body>
     {% extends "template.html" %}
     {% block content %}
 
-    <h1> Results </h1>
-    <p>GRE Verbal: {{gre_verbal}}</p>
-    <p>GRE Quantitative: {{gre_quantitative}}</p>
-    <p>GRE Writing: {{gre_writing}}</p>
-    <p>GPA: {{gpa}}</p>
-    <p>Cost: {{cost}}</p>
-    <p>Type: {{pub_or_priv}}</p>
-    <p>Size: {{size}}</p>
-    <p>Location: {{location}}</p>
-    <p>Most Important: {{most_important}}</p>
-    <p>Very Important: {{very_important}}</p>
-    <p>Less Important: {{less_important}}</p>
-    <p>Least Important: {{least_important}}</p>
-    <p>Results: {{results}}</p>
-    <p>Information: {{top_school_info}}</p>
-
-    <ul class="school">
-      {% for school in top_school_info %}
-      <li>
-        <!--  New ul with class of 'courses' -->
-        <ul class='info'>
-          {% for item in school %}
-          <li>{{ item }}</li>
-          {% endfor %}
+    <div id="parentDiv">
+      <div id="prefContainer">
+        <h1 id = "prefs"> Top Recommended Schools based on Preferences </h1>
+        <ul class="1">
+          {% for school in top_school_info %}
+          <p id= "schoolName"> {{ school[0] }}</p>
+          <li> College Ranking: {{ school[1] }}</li>
+          <li> City: {{ school[2] }}</li>
+          <li> State: {{ school[3] }}</li>
+          <li> Public/Private: {{ school[4] }}</li>
+          <li> Student Population: {{ school[5] }}</li>
+          <li> Size: {{ school[6] }}</li>
+          <li> Location: {{ school[7] }}</li>
+          <li> Website: {{ school[8] }}</li>
+            {% endfor %}
         </ul>
-      </li>
-      {% endfor %}
-    </ul>
-    
+      </div>
+  
+      <div id="scoreContainer">
+        <h1 id = "scores"> Top Recommended Schools based on Scores </h1>
+        <ul class="1">
+          {% for school in top_school_knn_info %}
+          <p id= "schoolName"> {{ school[0] }}</p>
+          <li> College Ranking: {{ school[1] }}</li>
+          <li> City: {{ school[2] }}</li>
+          <li> State: {{ school[3] }}</li>
+          <li> Public/Private: {{ school[4] }}</li>
+          <li> Student Population: {{ school[5] }}</li>
+          <li> Size: {{ school[6] }}</li>
+          <li> Location: {{ school[7] }}</li>
+          <li> Website: {{ school[8] }}</li>
+            {% endfor %}
+        </ul>
+      </div>
+
+    </div>
     {% endblock %}
   </body>
 </html>

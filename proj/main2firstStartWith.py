@@ -33,33 +33,24 @@ def home():
         least_important = request.form['least_important']
 
         weights = get_weights(most_important, very_important, less_important, least_important)
-        # print(weights, file=sys.stdout)
+        print(weights, file=sys.stdout)
 
-        # schools based on preference
         school_array = get_sim_score(float(cost), float(pub_or_priv), float(size), float(location), weights)
-        school_array = school_array[0:7]
+        school_array = school_array[0:10]
         
         top_school_info = []
         for idx, name in enumerate(school_array):
-            if idx < 7:
+            if idx < 10:
                 top_school_info.append(get_school_info(name))
 
-        # print('This is standard output', file=sys.stdout)
-
-        # schools based on scores using knn
-        school_knn = get_school_knns(float(gre_verbal), float(gre_quantitative), float(gre_writing), float(gpa))
-        top_school_knn_info = []
-
-        for school in school_knn:
-            school_name = school[0]
-            top_school_knn_info.append(get_school_info(school_name))
+        print('This is standard output', file=sys.stdout)
 
         return render_template('results.html', gre_verbal=gre_verbal, 
         gre_quantitative=gre_quantitative, gre_writing=gre_writing, gpa=gpa, 
         cost=cost, pub_or_priv=pub_or_priv, size=size, location=location, 
         most_important=most_important, very_important=very_important, 
         less_important=less_important, least_important=least_important,
-        results=school_array, top_school_info=top_school_info, school_knn=school_knn, top_school_knn_info=top_school_knn_info)
+        results=school_array, top_school_info=top_school_info)
     else:   
         return render_template('home.html')    
     
@@ -137,7 +128,7 @@ def get_sim_score(input_cost, input_puborpriv, input_size, input_location, weigh
 
 def get_school_info(school_name):
     final_data = pd.read_csv('finalData.csv')
-    data = ['Name', 'Rank', 'City', 'State', 'PubOrPriv', 'StudentPop', 'Size', 'Location', 'Website']
+    data = ['Name', 'Rank', 'City', 'State', 'PubOrPriv', 'StudentPop', 'Website', 'Size', 'Location']
     final_data_cols = final_data[data]
     school = final_data_cols.loc[final_data_cols['Name'] == school_name]
     school_info = []
@@ -145,40 +136,6 @@ def get_school_info(school_name):
         school_info.append(list(school[i])[0])    
     return school_info
     
-def get_school_knns(greV, greQ, greA, cgpa):
-    gradData = pd.read_csv('cleanedGradData.csv')
-    testSet = [[greV, greQ, greA, cgpa]]
-    test = pd.DataFrame(testSet)
-    k = 7
-    result, neigh= knn(gradData, test, k)
-    return result
-
-def eucDistance(data1, data2, length):
-    distance = 0
-    for x in range(length):
-        distance += np.square(data1[x] - data2[x])
-    return np.sqrt(distance)
-
-def knn(trainingSet, testInstance, k):
-    distances = {}
-    length = testInstance.shape[1]
-    for x in range(len(trainingSet)):
-        dist = eucDistance(testInstance, trainingSet.iloc[x], length)
-        distances[x] = dist[0]
-    sorted_d = sorted(distances.items(), key=lambda x: x[1])
-    neighbors = []
-    for x in range(k):
-        neighbors.append(sorted_d[x][0])
-    classVotes = {}
-    for x in range(len(neighbors)):
-        response = trainingSet.iloc[neighbors[x]][-1]
-        if response in classVotes:
-            classVotes[response] += 1
-        else:
-            classVotes[response] = 1
-    sortedVotes = sorted(classVotes.items(), key=lambda x: x[1], reverse=True)
-    return(sortedVotes, neighbors)
-
 @app.route("/results", methods=['POST'])
 
 def results():
@@ -187,3 +144,6 @@ def results():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+

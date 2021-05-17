@@ -2,27 +2,49 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>College Recommender</title>
+    <title>Graduate School Recommender</title>
   </head>
+  <style>
+    #submitButton {
+      margin-top: 10px;
+      margin-left: 10px;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      width: 500px;
+      height: 40px;
+      background-color: #486bb5;
+      color: white;
+    }
+
+    form{
+      margin-left: 10px;
+    }
+
+    title{
+      background-color: #486bb5;
+      color: white;
+    }
+    </style>
   <body>
     {% extends "template.html" %}
     {% block content %}
 
     <form method="POST">
+      <h4>Enter your school and school information. </h4>
       <!-- GRE Verbal -->
-      <label for="gre_verbal">GRE Verbal:</label>
+      <label for="gre_verbal">GRE Verbal (130-170):</label>
       <input type="text" id="gre_verbal" name="gre_verbal"><br><br>
       
       <!-- GRE Quantitative -->
-      <label for="gre_quantitative">GRE Quantitative:</label>
+      <label for="gre_quantitative">GRE Quantitative (130-170):</label>
       <input type="text" id="gre_quantitative" name="gre_quantitative"><br><br>
 
       <!-- GRE Writing -->
-      <label for="gre_writing">GRE Writing:</label>
+      <label for="gre_writing">GRE Writing (0-6):</label>
       <input type="text" id="gre_writing" name="gre_writing"><br><br>
 
       <!-- Cumulative Undergraduate GPA -->
-      <label for="gpa">Cumulative Undergraduate GPA:</label>
+      <label for="gpa">Cumulative Undergraduate GPA (0-4):</label>
       <input type="text" id="gpa" name="gpa"><br><br>
 
       <!-- Cost -->
@@ -48,11 +70,11 @@
       <!-- Size -->
       <p>What size school would you prefer?</p>
       <input type="radio" id="small" name="size" value="1">
-      <label for="small">Small</label><br>
+      <label for="small">Small (< 5000)</label><br>
       <input type="radio" id="medium" name="size" value="2">
-      <label for="medium">Medium</label><br>
+      <label for="medium">Medium (5,000-15,000)</label><br>
       <input type="radio" id="large" name="size" value="3">
-      <label for="large">Large</label><br>
+      <label for="large">Large (> 15,000)</label><br>
 
       <!-- Location -->
       <p>Do you want to go anywhere specific in the US?</p>
@@ -66,7 +88,7 @@
       <label for="west">West (WA, OR, CA, NV, ID, MT, WY, UT, AZ, NM, CO)</label><br>
 
       <!-- Ranking -->
-      <h4>Rank your preferences from most to least important.</h4>
+      <h4>Rank your preferences [cost, public/private, size, location] from most to least important.</h4>
       <label for="1">1) Most Important:</label>
       <select id="1" name="most_important">
         <option value="cost">Cost</option>
@@ -98,7 +120,12 @@
         <option value="size">Size</option>
         <option value="location">Location</option>
       </select>
-      <input type="submit" name="button" value="submit">
+
+      <div>
+        <input type="submit" name="button" value="Get Recommendations" id="submitButton">
+      </div>
+      
+
     </form>
     
     {% endblock %}
